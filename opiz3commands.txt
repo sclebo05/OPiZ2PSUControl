@@ -1,0 +1,5 @@
+# cli commands for Orange Pi Zero 3
+
+gpio mode 0 out # run at boot
+gpio write 0 0 # low
+gpio write 0 1 # high
