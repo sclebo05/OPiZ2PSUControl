@@ -1,7 +1,8 @@
 # OPiZ2PSUControl
-Orange Pi Zero 2 PSU Control for Octoprint
+Orange Pi Zero 2 PSU Control for Octoprint's PSU Control plugin.
 
-This is a 5 minute solution to enable an Orange Pi Zero 2 to use GPIO pins to operate an IOT PDU.
+This is a 5 minute solution to enable an Orange Pi Zero 2 to use GPIO pins to operate an IOT PDU.  I used one of these IOT PDUs from Digital Loggers
+![pdu](pdu.png)
 
 Install:
 
