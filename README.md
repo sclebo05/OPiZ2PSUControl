@@ -1,7 +1,7 @@
 # OPiZ2PSUControl
 Orange Pi Zero 2 PSU Control for Octoprint's PSU Control plugin.
 
-This is a 5 minute solution to enable an Orange Pi Zero 2 to use GPIO pins to operate an IOT PDU.  I used one of these IOT PDUs from Digital Loggers:
+This is a 5 minute solution to enable an Orange Pi Zero 2 to use GPIO pins to operate an IOT PDU.  This howto should also work with RPI.GPIO, with minor modification to the scripts. I used one of these IOT PDUs from Digital Loggers:
 
 ![pdu](pdu.png)
 
@@ -28,7 +28,7 @@ Test that the user can run 'sudo /home/orangepi/psu-on.py'
 
 ### Wiring the OPIZ2
 
-Connect the PDU to the Orange Pi Zero 2 using pins 3 and 6.
+Connect the PDU to the Orange Pi Zero 2 using pins 3 and 6 (a GPIO and ground, respectively)
 
 (wiring diagram will go here)
 
@@ -42,6 +42,8 @@ Configure Octoprint's PSU Control plugin to use 'System Command' as the switchin
 
 `Off System Command: sudo /home/orangepi/psu-off.py`
 
-GUI image below:
+Screenshot below:
 
 ![oprint-settings](oprint-settings.png)
+
+You may now use the 'Lightning Bolt' on the top menu of Octoprint to power the printer on and off.
