@@ -1,5 +1,5 @@
 # Orange Pi 2 or 3 with Octoprint
-Orange Pi Zero 2 PSU Control for Octoprint's PSU Control plugin.
+Orange Pi Zero 2 PSU Control for Octoprint's PSU Control plugin to power on printers.
 
 ## Orange Pi Zero 2
 
