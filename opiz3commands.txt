@@ -1,5 +1,9 @@
 # cli commands for Orange Pi Zero 3
+# be careful when choosing PINs, some pins are HIGH to start, some LOW. 
+# This means the PDU would be ON at boot, not ideal.
 
-gpio mode 0 out # run at boot
-gpio write 0 0 # low
-gpio write 0 1 # high
+# on
+gpio mode 15 out && gpio write 15 1
+
+# off
+gpio mode 15 out && gpio write 15 0
