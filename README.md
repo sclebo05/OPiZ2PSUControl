@@ -55,3 +55,21 @@ Screenshot below:
 You may now use the 'Lightning Bolt' on the top menu of Octoprint to power the printer on and off.
 
 ## Orange Pi Zero 3
+
+The Orange Pi Zero 3 includes a working install of WiringPi.  Run `gpio readall` from the Linux CLI to see the current pin status.
+
+### Wiring
+
+![opiz3-wiring](pics/opiz-wiring.jpg)
+
+I believe this translates to 'pins 6 and 26'
+
+### Octoprint Config
+
+Install the plugin PDU Control within Octoprint
+
+Configure the plugins as follows:
+
+![opiz3-screen](pics/opiz-screen.jpg)
+
+You may now use the 'Lightning Bolt' on the top menu of Octoprint to power the printer on and off.
