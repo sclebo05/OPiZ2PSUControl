@@ -62,6 +62,8 @@ The Orange Pi Zero 3 includes a working install of WiringPi.  Run `gpio readall`
 
 ![opiz3-wiring](pics/opiz3-wiring.jpg)
 
+![opiz3-pinout](pics/opiz3-pinouts.jpg)
+
 I believe this translates to 'pins 6 and 26'
 
 ### Octoprint Config
