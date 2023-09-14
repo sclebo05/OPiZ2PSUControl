@@ -5,7 +5,7 @@ This is a 5 minute solution to enable an Orange Pi Zero 2 to use GPIO pins to op
 
 ![pdu](pdu.png)
 
-###Install software on OPIZ2:
+### Install software on OPIZ2:
 
 Install a copy of OPI.GPIO, I opted for this Python3 compatible version: https://github.com/NadavK/OPI.GPIO
 (only deviation I had was installing python3-dev instead of python-dev)
@@ -13,7 +13,7 @@ Install a copy of OPI.GPIO, I opted for this Python3 compatible version: https:/
 
 Copy psu-on.py and psu-off.py into the home directory of the user.
 
-###Allow the user to run the scripts
+### Allow the user to run the scripts
 Allow the orangepi (or any user) to execute the scripts without a password, through sudo
 
 `> visudo`
@@ -26,13 +26,13 @@ Allow the orangepi (or any user) to execute the scripts without a password, thro
 
 Test that the user can run 'sudo /home/orangepi/psu-on.py'
 
-###Wiring the OPIZ2
+### Wiring the OPIZ2
 
 Connect the PDU to the Orange Pi Zero 2 using pins 3 and 6.
 
 (wiring diagram will go here)
 
-###Install Octoprint Plugin and Configure
+### Install Octoprint Plugin and Configure
 
 Install the PSU Control plugin in Octoprint.
 
