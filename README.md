@@ -16,7 +16,7 @@ Install a copy of OPI.GPIO, I opted for this Python3 compatible version: https:/
 Copy psu-on.py and psu-off.py into the home directory of the user.  Maybe test as root to ensure the above is all in place?
 
 ### Allow the user to run the scripts
-Allow the orangepi (or any user) to execute the scripts without a password, through sudo
+Allow the orangepi (or any user) to execute the scripts without a password, through sudo.  Append the following lines to the file.
 
 `> visudo`
 
