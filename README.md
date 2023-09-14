@@ -19,6 +19,7 @@ Allow the orangepi (or any user) to execute the scripts without a password, thro
 `> visudo`
 
 `orangepi ALL = NOPASSWD: /home/orangepi/psu-on.py`
+
 `orangepi ALL = NOPASSWD: /home/orangepi/psu-off.py`
 
 Test that the user can run 'sudo /home/orangepi/psu-on.py'
@@ -32,6 +33,7 @@ Install the PSU Control in Octoprint.
 Configure Octoprint's PSU Control plugin to use 'System Command' as the switching mechanism i.e.
 
 `On System Command: sudo /home/orangepi/psu-on.py`
+
 `Off System Command: sudo /home/orangepi/psu-off.py`
 
 ![oprint-settings](oprint-settings.png)
