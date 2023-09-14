@@ -10,7 +10,7 @@ from time import sleep          # this lets us have a time delay
 PIN = 3
 GPIO.setboard(GPIO.H616)
 GPIO.setmode(GPIO.BOARD)        # set up BOARD BCM numbering
-GPIO.setup(PIN, GPIO.OUT)         # set BCM7 (pin 26) as an output (LED)
+GPIO.setup(PIN, GPIO.OUT)         # configure PIN
 
 print ("Powering On...")
 GPIO.output(PIN, 1)       # set port/pin value to 1/HIGH/True
