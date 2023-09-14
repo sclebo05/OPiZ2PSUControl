@@ -26,3 +26,4 @@ Test that the user can run 'sudo /home/orangepi/psu-on.py'
 Connect the PDU to the Orange Pi Zero 2 using pins 3 and 6.
 
 Configure Octoprint's PSU Control plugin to use System Command 
+!(oprint-settings.png)
