@@ -78,9 +78,9 @@ Configure the plugins as follows:
 Each command ensures the output mode for that pin, and then writes a value, 0 for off, 1 for on.
 
 On
-`gpio mode 15 out && gpio write 15 0`
+`gpio mode 15 out && gpio write 15 1`
 
 Off
-`gpio mode 15 out && gpio write 15 1`
+`gpio mode 15 out && gpio write 15 0`
 
 You may now use the 'Lightning Bolt' on the top menu of Octoprint to power the printer on and off.
